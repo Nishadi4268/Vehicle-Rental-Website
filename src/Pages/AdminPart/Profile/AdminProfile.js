@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ADashboard from '../../../Components/UserDashboard/UDashboard'; // Import the ADashboard component
+import ADashboard from '../../../Components/UserDashboard/UserDashboard'; // Import the ADashboard component
 import './AdminProfile.css'; // Import the CSS file for styling
 
 const AdminProfile = () => {

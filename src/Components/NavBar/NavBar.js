@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import './NavBar.css';
 
 const NavBar = () => {
@@ -7,7 +8,7 @@ const NavBar = () => {
             <div className="navbar-logo"></div>
             <button className="navbar-cart" />
             <div className="nav-links">
-                <a href="#" className="nav-link">Home</a>
+                <Link to="/" className="nav-link">Home</Link> {/* Use Link instead of <a> */}
                 <a href="#" className="nav-link">About Us</a>
                 <a href="#" className="nav-link">Blog</a>
                 <a href="#" className="nav-link">Contacts</a>
