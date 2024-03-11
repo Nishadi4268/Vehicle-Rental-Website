@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import './SignUp.css';
 
 const SignUp = () => {
@@ -36,18 +37,17 @@ const SignUp = () => {
                         <input type="text" placeholder="First Name" />
                         <input type="text" placeholder="Last Name" />
                     </div>
-                    <div className="email-input">
-                        <i className="fa fa-envelope"></i>
                         <input type="text" placeholder="Email/Phone (+94)" />
-                    </div>
                     <input type="password" placeholder="Password" value={password} onChange={handlePasswordChange} />
                     <input type="password" placeholder="Confirm Password" value={confirmPassword} onChange={handleConfirmPasswordChange} />
-                    {passwordMatchError && <div className="password-error">*****Passwords do not match</div>}
-                    <button className="signup-button" onClick={handleSubmit}>Sign Up</button>
+                    {passwordMatchError && <div className="password-error">*****Password does not match</div>}
+                    <button className="signup-button" onClick={handleSubmit}>
+                        <Link to="/login">Sign Up</Link>
+                    </button>
                     <div className="signup-login-text">
                         Already have an account? 
                     </div>
-                    <a href="#" className="signup-login-link">Log In</a>
+                    <Link to="/login" className="signup-login-link">Log In</Link>
                 </div>
             </div>
         </div>
