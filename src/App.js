@@ -8,7 +8,7 @@ import UserBookings from './Pages/UserPart/UserBookings/UserBookings.js';
 import ForgotPW from './Pages/FogotPW/ForgotPW.js';
 
 
-import {Home} from './AdminPages/Home/Home';
+import {Home} from './Pages/Home/Home.js';
 import AdminProfile from './AdminPages/AdminProfile/AdminProfile';
 import PostVehicle from './AdminPages/PostVehicle/PostVehicle';
 import ManageBooking from './AdminPages/ManageBooking/ManageBooking';
@@ -28,7 +28,6 @@ function App() {
           <Route path="/Login" element={<Login/>} />
           <Route path="/fogotpassword" element={<ForgotPW/>} />
           <Route path="/userprofile" element={<UserProfile/>} />
-          <Route path="/ReviewAndRating" element={<ReviewAndRating/>} />
           <Route path="/UserBookings" element={<UserBookings/>} />
 
 
