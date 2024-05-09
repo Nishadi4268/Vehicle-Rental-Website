@@ -22,7 +22,6 @@ const ForgotPW = () => {
         if (newPassword !== confirmPassword) {
             setError('Passwords do not match');
         } else {
-            // Add your logic to handle the password reset
             console.log('Passwords match');
         }
     };

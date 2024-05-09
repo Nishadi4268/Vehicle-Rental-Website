@@ -1,11 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import { Link } from 'react-router-dom'; 
 import './Login.css';
 
 const Login = () => {
     return (
         <div className="login-container">
-            <div className="left-section"/>
+            <div className="left-section-Login"/>
             <div className="right-section">
                 <i alt="Logo" className="login-logo" />
                 <div className="input-container">
