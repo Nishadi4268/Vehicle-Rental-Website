@@ -4,14 +4,14 @@
 }
 
 .booking-content {
-    flex: 1;
-    padding: 20px;
-    overflow-y: auto; 
+    flex: 0.9;
+    padding: 50px;
+    margin-left: 250px;
 }
 
 .booking-table {
     width: 80%;
-    margin-left: 20%;
+    margin-left: 10%;
     border-collapse: collapse;
 }
 

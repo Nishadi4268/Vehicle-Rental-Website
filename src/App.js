@@ -6,6 +6,7 @@ import SignUp from './Pages/SignUp/SignUp.js';
 import UserProfile from './Pages/UserPart/UserProfile/UserProfile.js';
 import UserBookings from './Pages/UserPart/UserBookings/UserBookings.js';
 import ForgotPW from './Pages/FogotPW/ForgotPW.js';
+import VehicleDetails from './Pages/VehicleDetails/VehicleDetails.js';
 
 
 import {Home} from './Pages/Home/Home.js';
@@ -29,6 +30,7 @@ function App() {
           <Route path="/fogotpassword" element={<ForgotPW/>} />
           <Route path="/userprofile" element={<UserProfile/>} />
           <Route path="/UserBookings" element={<UserBookings/>} />
+          <Route path="/Vehicles" element={<VehicleDetails/>} />
 
 
           <Route path="/AdminProfile" element={<AdminProfile/>} />

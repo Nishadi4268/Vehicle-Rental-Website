@@ -2,12 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom'; 
 import './Login.css';
 import Footer from '../../AdminPages/Components/Footer/Footer.jsx';
-import NavBar from '../../Components/NavBar/NavBar';
+import NavigationBar from '../../AdminPages/Components/NavigationBar/Navigation.jsx'; // Import the NavigationBar component
 
 const Login = () => {
     return (
         <div>
-        <NavBar />
+        <NavigationBar />
         <div className="login-container">
             <div className="left-section-Login"/>
             <div className="right-section">

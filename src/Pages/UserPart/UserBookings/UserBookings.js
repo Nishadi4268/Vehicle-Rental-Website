@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './UserBookings.css';
 import UserDashboard from '../../../Components/UserDashboard/UserDashboard.js';
+import Footer from '../../../AdminPages/Components/Footer/Footer.jsx';
 
 const Booking = () => {
     const [vehicles, setVehicles] = useState([
@@ -19,8 +20,10 @@ const Booking = () => {
     };
 
     return (
+        <div>
+        <UserDashboard />
         <div className="booking-container">
-            <UserDashboard />
+            
             <div className="booking-content">
                 <h2>Booking Page</h2>
                 <table className="booking-table">
@@ -50,6 +53,8 @@ const Booking = () => {
                     <button disabled={vehicles.length === 0}>Remove Vehicle</button>
                 </div>
             </div>
+        </div>
+        <Footer/>
         </div>
     );
 };

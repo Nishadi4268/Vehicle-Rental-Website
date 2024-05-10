@@ -22,7 +22,7 @@ const UserDashboard = () => {
             <Link to="/cart">Cart</Link>
           </li>
           <li className={location.pathname === '/ReviewAndRating' ? 'active' : ''}>
-            <Link to="/ReviewAndRating">Review and Ratings</Link>
+            <Link to="/ReviewRatings">Review and Ratings</Link>
           </li>
         </ul>
       </div>
