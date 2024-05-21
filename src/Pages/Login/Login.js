@@ -17,7 +17,7 @@ const Login = () => {
                     <input classNametype="text" placeholder="User name" />
                     <input type="password" placeholder="Password" />
                     <Link to="/fogotpassword" className="forgot-password">Forgot password?</Link>
-                    <button className="login-button">Login</button>
+                    <Link to='/Vehicles' className="login-button">Login</Link>
                     <div className="signup-text">
                         Doesn't have any account? 
                     </div>

@@ -32,7 +32,7 @@
 .login-logo {
     position: absolute;
     transform: translate(-1%, -85%);  
-    margin-top: 2%;
+    margin-top: 5%;
     max-width: 400px;
     width:100%;
     height: 200px;
@@ -76,6 +76,7 @@ input {
 .login-button {
     width: 100px;
     height: 40px;
+    text-align: center;
     background-color: black;
     color: white;
     border: none;
