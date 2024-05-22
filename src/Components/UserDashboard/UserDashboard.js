@@ -15,14 +15,14 @@ const UserDashboard = () => {
           <li className={location.pathname === '/userprofile' ? 'active' : ''}>
             <Link to="/userprofile">Profile</Link>
           </li>
-          <li className={location.pathname === '/booking' ? 'active' : ''}>
-            <Link to="/booking">Booking</Link>
+          <li className={location.pathname === '/UserBookings' ? 'active' : ''}>
+            <Link to="/UserBookings">Booking</Link>
           </li>
           <li className={location.pathname === '/cart' ? 'active' : ''}>
             <Link to="/cart">Cart</Link>
           </li>
           <li className={location.pathname === '/ReviewAndRating' ? 'active' : ''}>
-            <Link to="/ReviewAndRating">Review and Ratings</Link>
+            <Link to="/ReviewRatings">Review and Ratings</Link>
           </li>
         </ul>
       </div>

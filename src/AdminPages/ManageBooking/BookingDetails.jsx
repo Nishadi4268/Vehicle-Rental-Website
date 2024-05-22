@@ -1,3 +1,4 @@
+
 import React from 'react';
 import './BookingDetails.css'; // Import CSS file for styling
 
