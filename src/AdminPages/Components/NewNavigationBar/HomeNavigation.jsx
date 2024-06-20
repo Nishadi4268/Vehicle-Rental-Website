@@ -16,7 +16,7 @@ const NewNavigationBar = () => {
         <ul>
         <li><Link to="/reviews" className="nav-link">REVIEWS</Link></li>
             <li><Link to="/PackageOffer" className="nav-link">OFFERS</Link></li>
-            <li><Link to="/about" className="nav-link">ABOUT</Link></li>
+            <li><Link to="/About" className="nav-link">ABOUT</Link></li>
             <li><Link to="/login" className="highlighted">LOGIN</Link></li>
             <li><Link to="/signup" className="highlighted">SIGNUP</Link></li>
         </ul>

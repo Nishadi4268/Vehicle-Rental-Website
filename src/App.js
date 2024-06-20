@@ -8,6 +8,7 @@ import UserBookings from './Pages/UserPart/UserBookings/UserBookings.js';
 import ForgotPW from './Pages/FogotPW/ForgotPW.js';
 import VehicleDetails from './Pages/VehicleDetails/VehicleDetails.js';
 import PackageOffer from './Pages/PackageOffer/PackageOffer.js';
+import About from './Pages/AboutUs/About.js';
 
 
 import {Home} from './Pages/Home/Home.js';
@@ -16,8 +17,8 @@ import PostVehicle from './AdminPages/PostVehicle/PostVehicle';
 import ManageBooking from './AdminPages/ManageBooking/ManageBooking';
 import ManageContactUs from './AdminPages/ManageContactUs/ManageContactUs';
 import RegisterUsers from './AdminPages/RegisteredUsers/RegisterUsers';
-import ReviewAndRating from './AdminPages/Booking/Booking';
-import BookingPage from './AdminPages/Booking/Booking';
+import ReviewAndRating from './AdminPages/ReviewRatings/ReviewRatings.jsx';
+import Booking from './AdminPages/Booking/Booking.jsx';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
           <Route path="/UserBookings" element={<UserBookings/>} />
           <Route path="/Vehicles" element={<VehicleDetails/>} />
           <Route path="/PackageOffer" element={<PackageOffer/>} />
+          <Route path="/About" element={<About/>} />
 
 
           <Route path="/AdminProfile" element={<AdminProfile/>} />
@@ -41,7 +43,7 @@ function App() {
           <Route path="/ManageContactUs" element={<ManageContactUs/>} />
           <Route path='/RegisteredUsers' element={<RegisterUsers/>}/>
           <Route path='/ReviewRatings' element= {<ReviewAndRating/>}/>
-          <Route path='/Booking' element= {<BookingPage/>}/>
+          <Route path='/Booking' element= {<Booking/>}/>
           
         </Routes>
       </div>

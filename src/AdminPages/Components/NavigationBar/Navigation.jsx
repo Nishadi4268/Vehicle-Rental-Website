@@ -19,7 +19,7 @@ const NavigationBar = () => {
       <div className="nav-links">
         <ul>
           <li><Link to="/" className="nav-link">HOME</Link></li>
-          <li><Link to="/about" className="nav-link">ABOUT</Link></li>
+          <li><Link to="/About" className="nav-link">ABOUT</Link></li>
           <li><Link to="/PackageOffer" className="nav-link">OFFERS</Link></li>
           <li><Link to="/contact" className="nav-link">CONTACT US</Link></li>
           <li><Link to="/login" className="nav-link">LOGIN</Link></li>

@@ -1,53 +1,148 @@
-/* BookingPage.css */
-.booking-page {
-    /* Add general styles for the booking page */
-  }
-  
-  .navigation-bar {
-    /* Styles for navigation bar */
-  }
-  
-  .blue-bar {
-    background-color: rgb(9, 9, 97);
-    color: white;
-    padding: 10px;
-    margin-top: 50px;
-  }
-  
-  .content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  .left-section {
-    /* Styles for left section containing image */
-  }
-  
-  .right-section {
-    /* Styles for right section containing included features */
-  }
-  
-  .price-summary {
-    background-color: lightgray;
-    padding: 20px;
-  }
-  
-  .book-now-btn {
-    background-color: green;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    margin-top: 20px;
-  }
-  
-  .driver-details {
-    padding: 20px;
-  }
-  
-  .driver-details input {
-    margin-bottom: 10px;
-  }
-  
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.booking-container {
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.header {
+  background: #002b5c;
+  padding: 10px 20px;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+.car-details-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.car-details {
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.car-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: rgb(230, 241, 215);
+}
+
+.car-options label {
+  display: block;
+  margin-right: 1000px;
+}
+
+.price-inclusions ul {
+  list-style-type:circle;
+  padding: 0;
+  margin-left: 50px;
+  margin-bottom: 15px;
+}
+
+.price-inclusions h4 {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.rating {
+  color: green;
+  font-weight: bold;
+}
+
+.confirmation {
+  background: #e8f6ff;
+  padding: 10px;
+  border: 1px solid #b3e5fc;
+}
+
+.driver-details {
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.driver-details form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  background-color: #a1c4ea;
+}
+
+.form-group {
+  margin-top: 20px;
+  flex: 1 1 35%;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.booking-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 0 auto;
+  width: 30%;
+  text-align: center;
+}
+
+.price-summary {
+  background-color: #c7e2ee;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.price-summary h4 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: rgb(13, 13, 106);
+  font-size: 25px;
+}
+
+.book-now-container {
+  display: flex;
+  justify-content: center;
+}
+
+.book-now {
+  background: #002b5c;
+  color: white;
+  padding: 10px 40px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 50px;
+  margin-top: -20px;
+}
+
+.book-now:hover {
+  background: #014187;
+}

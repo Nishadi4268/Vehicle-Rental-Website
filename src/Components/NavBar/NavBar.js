@@ -9,7 +9,7 @@ const NavBar = () => {
             <button className="navbar-cart" />
             <div className="nav-links">
                 <Link to="/" className="nav-link">Home</Link> {/* Use Link instead of <a> */}
-                <a href="#" className="nav-link">About Us</a>
+                <Link to="/About" className="nav-link">About Us</Link>
                 <Link to="PackageOffer" className="nav-link">Offers</Link>
                 <a href="#" className="nav-link">Contacts</a>
                 <a href="#" className="nav-link">Account</a>

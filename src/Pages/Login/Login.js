@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'; 
 import './Login.css';
 import Footer from '../../AdminPages/Components/Footer/Footer.jsx';
-import NavigationBar from '../../AdminPages/Components/NavigationBar/Navigation.jsx'; // Import the NavigationBar component
+import NavigationBar from '../../AdminPages/Components/NavigationBar/Navigation.jsx'; 
 
 const Login = () => {
     return (
