@@ -6,7 +6,7 @@ import addPhotoIcon from './Images/add_photo_icon.png';
 
 const AdminProfile = () => {
   const [selectedPhoto, setSelectedPhoto] = useState(null);
-  const [userName, setUserName] = useState(''); 
+  const [userName, setUserName] = useState('');
 
   const handlePhotoChange = (event) => {
     const file = event.target.files[0];
@@ -45,16 +45,16 @@ const AdminProfile = () => {
           </div>
           <div className="user-details">
             <div className="detail">
-              <label>First Name:</label>
-              <input type="text" />
+              <label htmlFor="first-name-input">First Name:</label>
+              <input id="first-name-input" type="text" />
             </div>
             <div className="detail">
-              <label>Last Name:</label>
-              <input type="text" />
+              <label htmlFor="last-name-input">Last Name:</label>
+              <input id="last-name-input" type="text" />
             </div>
             <div className="detail">
-              <label>Email/Contact No:</label>
-              <input type="text"  />
+              <label htmlFor="email-input">Email/Contact No:</label>
+              <input id="email-input" type="text" />
             </div>
           </div>
         </div>

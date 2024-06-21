@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="services-bar">
-        Enjoy the efficient and specialized services of Vishwa Transport; Sri Lanka's leading rent-a-car company
+        "Enjoy the efficient and specialized services of Vishwa Transport; Sri Lanka's leading rent-a-car company"
       </div>
       <div className="services">
         <div className="service">
@@ -42,15 +42,16 @@ const Footer = () => {
             Vishwa Transport (Pvt) Ltd<br />
             No 123, Araliya Street, Gampaha, Sri Lanka.<br /><br />
             Hotlines:<br />
-            <a href="tel:+94777845830">+94 777 845 830</a><br /><br />
+            <a href="tel:+94777845830" class="light-blue-link">+94 777 845 830</a><br /><br />
             Email:<br />
-            <a href="mailto:shanthasovis73@gmail.com">shanthasovis73@gmail.com</a>
-          </p>
+            <a href="mailto:shanthasovis73@gmail.com" class="light-blue-link">shanthasovis73@gmail.com</a>
+            </p>
         </div>
       </div>
       <div className="find-out">
         <hr />
-        <a href="/about">Find out more about us</a>
+        <a href="/about" class="blue-link">Find out more about us</a>
+
         <hr />
       </div>
       <div className="contact-bar">
