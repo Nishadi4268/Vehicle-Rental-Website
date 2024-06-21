@@ -1,0 +1,185 @@
+
+
+.fixed-nav {
+    position: fixed;
+    width: 100%;
+    z-index: 1000; /* Ensure the NavBar is above other content */
+}
+
+.vehicles-top {
+    height: calc(100vh / 5);
+    margin-top: 1px; /* Adjust according to the height of the NavBar */
+    background: url('./images/image111.png') center/cover no-repeat;
+}
+
+
+.main-content {
+    margin-top: -9%; /* Same height as .vehicles-top */
+    padding: 10%; /* Add padding to separate from the fixed elements */
+}
+
+.text-vehicle {
+    color: rgb(94, 94, 234);
+    margin-left: -2.5%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.text-vehicle1 {
+    color: rgb(94, 94, 234);
+    text-align:calc(100px/3);
+    font-size: 18px;
+    line-height: 1.5;
+    margin-left: 25%;
+}
+
+.category-heading {
+    display: flex;
+    align-items: center;
+    margin-left: -8%;
+    font-weight:bolder;
+    margin-top: 50px;
+}
+
+.category-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.arrow {
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+
+.nav-btn {
+    background-color: transparent;
+    border: none;
+    color: #333; /* Button color */
+    font-size: 24px; /* Button font size */
+    cursor: pointer;
+    padding: 0 10px; /* Padding around the button text */
+}
+
+.nav-btn:hover {
+    color: #555; /* Button color on hover */
+}
+
+
+
+.car-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.car-box {
+    width: 26%;
+    height: 430px;
+    background-color: rgb(213, 214, 213);
+    box-shadow: 10px 4px 8px rgba(13, 11, 11, 0.1); /* Add shadow */
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in width */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.3s ease; /* Smooth transition for size change */
+}
+
+.car-box:hover {
+    transform: scale(1.1); /* Increase size on hover */
+    box-shadow: 10px 4px 20px rgba(13, 11, 11, 0.3); /* Add shadow effect */
+}
+
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    25% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    75% {
+        transform: translateX(0);
+        opacity: 1.5;
+    }
+    100% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+}
+
+.car-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.car-description {
+    color: rgb(94, 94, 234);
+}
+
+.car-box:nth-child(1) {
+    background-image: url('./images/car01.png');
+    background-size: cover;
+}
+
+.car-box:nth-child(2) {
+    background-image: url('./images/car02.jpeg');
+    background-size: cover;
+}
+
+/* Add similar styles for car3 to car6 */
+.car-box:nth-child(3) {
+    background-image: url('./images/image111.png');
+    background-size: cover;
+}
+
+.car-box:nth-child(4) {
+    background-image: url('./images/image111.png');
+    background-size: cover;
+}
+
+.car-box:nth-child(5) {
+    background-image: url('./images/image111.png');
+    background-size: cover;
+}
+
+.car-box:nth-child(6) {
+    background-image: url('./images/image111.png');
+    background-size: cover;
+}
+
+
+.van-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.van-box {
+    width: 26%;
+    height: 430px;
+    background-color: rgb(213, 214, 213);
+    box-shadow: 10px 4px 8px rgba(13, 11, 11, 0.1); /* Add shadow */
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in width */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.van-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.van-description {
+    color: gray;
+}

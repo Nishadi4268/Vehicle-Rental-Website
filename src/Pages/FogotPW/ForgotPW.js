@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './ForgotPW.css';
 import NavBar from '../../Components/NavBar/NavBar';
+import Footer from '../../AdminPages/Components/Footer/Footer.jsx';
 
 const ForgotPW = () => {
     const [newPassword, setNewPassword] = useState('');
@@ -22,22 +23,21 @@ const ForgotPW = () => {
         if (newPassword !== confirmPassword) {
             setError('Passwords do not match');
         } else {
-            // Add your logic to handle the password reset
             console.log('Passwords match');
         }
     };
 
     return (
-        <div>
+        <div classname="background11">
             <NavBar />
             <div className="reset-password-container">
-                <div className="left-section" />
+                <div className="left-section-fogotpw" />
                 <div className="right-section">
                     <i alt="Logo" className="reset-password-logo" />
                     <div className="input-container">
                         <div className='ResetPassword-topic'>Reset Password</div>
                         <input
-                            type="text"
+                            classNametype="text"
                             placeholder="User Name"
                         />
                         <input
@@ -62,6 +62,7 @@ const ForgotPW = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 };

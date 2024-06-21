@@ -1,3 +1,4 @@
+
 .register-users-page {
     padding: 20px;
     margin-top: 50px;
@@ -29,4 +30,3 @@
   .user-table tbody tr:nth-child(even) {
     background-color: #f2f2f2;
   }
-  

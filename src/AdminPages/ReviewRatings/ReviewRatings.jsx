@@ -1,3 +1,4 @@
+
 import React from 'react';
 import './ReviewRatings.css'; // Import CSS file for styling
 import NavigationBar from '../Components/NavigationBar/Navigation.jsx'; // Import the NavigationBar component
